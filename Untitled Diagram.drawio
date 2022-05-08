@@ -1,29 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T15:14:05.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="XhzX_oqdn1ZRGOGo4Xmh" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-08T16:41:54.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="qXCJCyALPqH6p_BsbwVX" version="18.0.1" type="github">
   <diagram id="Wk8TOwsD4GPZ7WTafaJ0" name="Page-1">
     <mxGraphModel dx="1420" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SuXCn8omYNods-wAeY89-3" value="授时中心主页面展示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="234" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="SuXCn8omYNods-wAeY89-12" value="浏览器展示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="206" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SuXCn8omYNods-wAeY89-4" value="卫星目标页面展示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="SuXCn8omYNods-wAeY89-13" value="展示层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SuXCn8omYNods-wAeY89-5" value="地面站页面展示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="SuXCn8omYNods-wAeY89-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="270" as="sourcePoint" />
+            <mxPoint x="550" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="SuXCn8omYNods-wAeY89-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="SuXCn8omYNods-wAeY89-6" target="SuXCn8omYNods-wAeY89-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="SuXCn8omYNods-wAeY89-18" value="服务层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SuXCn8omYNods-wAeY89-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="SuXCn8omYNods-wAeY89-6" target="SuXCn8omYNods-wAeY89-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="SuXCn8omYNods-wAeY89-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="206" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="SuXCn8omYNods-wAeY89-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="SuXCn8omYNods-wAeY89-6" target="SuXCn8omYNods-wAeY89-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="SuXCn8omYNods-wAeY89-21" value="授时中心主页面展示模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="320" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SuXCn8omYNods-wAeY89-6" value="数据可视化模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="SuXCn8omYNods-wAeY89-22" value="卫星页面展示模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="370" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SuXCn8omYNods-wAeY89-23" value="地面站展示模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SuXCn8omYNods-wAeY89-25" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="480" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SuXCn8omYNods-wAeY89-26" value="数据抽象化" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SuXCn8omYNods-wAeY89-27" value="地图数据" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="540" width="57" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SuXCn8omYNods-wAeY89-28" value="坐标数据" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="436" y="540" width="57" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SuXCn8omYNods-wAeY89-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="630" as="sourcePoint" />
+            <mxPoint x="550" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SuXCn8omYNods-wAeY89-30" value="数据层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="695" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SuXCn8omYNods-wAeY89-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="650" width="206" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SuXCn8omYNods-wAeY89-33" value="MySQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="660" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SuXCn8omYNods-wAeY89-34" value="MongoDB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="710" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
